@@ -1,7 +1,7 @@
 # This will calculate the value of a call and put for a European style option
 # C = [S - PV(d)]*N(d1) - PV(K)*N(d2)
 # d1 = (ln(S/K) + t(r - q + (s^2)/2)/(s * sqrt(t))
-# d2 = d1-(s * sqrt(t))
+# d2 = d1 - (s * sqrt(t))
 
 from math import log, sqrt, e
 from scipy.stats import norm
